@@ -1,5 +1,7 @@
 <?php
 
-echo "Test";
+include("config.php");
+
+
 
 ?>
