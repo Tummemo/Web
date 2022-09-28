@@ -3,5 +3,5 @@
 include("config.php");
 
 
-
+echo "hello";
 ?>
