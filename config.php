@@ -1,9 +1,9 @@
 <?php
 
 $db_host = "ec2-3-93-206-109.compute-1.amazonaws.com";
-$db_user = "kjuiegkkkxmozq";
-$db_pwd = "bf37450b31c08217f94fadc0cba06338370dd9ae484303d1131b48438ed8126f";
-$db_name = "d6ribukhttlnbt";
+$db_user = "pclryflarbmofh";
+$db_pwd = "bc1da9b9b01388d5cdd84c8da4dca26201dd83f053110099cf5b3e14226372be";
+$db_name = "d6gi0m2pobhelr";
 
 
 try {
