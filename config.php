@@ -6,10 +6,12 @@ $db_pwd = "bc1da9b9b01388d5cdd84c8da4dca26201dd83f053110099cf5b3e14226372be";
 $db_name = "d6gi0m2pobhelr";
 
 
-$conn = mysqli_connect($db_host, $db_user, $db_pwd, $db_name);
-
-if (!$conn) {
-  die("Connection failed: " . mysqli_connect_error());
+try {
+  $conn = new PDO("mysql:host=$db_host;dbname=$db_name", $db_user, $db_pwd);
+  
+  $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+  echo "Connected successfully";
+} catch(PDOException $e) {
+  echo "Connection failed: " . $e->getMessage();
 }
-echo "Connected successfully";
 ?>
