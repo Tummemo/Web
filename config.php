@@ -7,7 +7,7 @@ $db_name = "d6gi0m2pobhelr";
 
 
 try {
-  $conn = new PDO("mysql:host=$db_host;dbname=$db_name", $db_user, $db_pwd);
+  $conn = new PDO("mysql:host=$db_host;port=5432;dbname=$db_name", $db_user, $db_pwd);
   
   $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
   echo "Connected successfully";
