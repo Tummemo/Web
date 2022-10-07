@@ -6,6 +6,7 @@ body {
 table {
     background-color:grey;
     margin-top:45%;
+    margin-left:80%;
 }
 
 select , input[type="submit"]{
