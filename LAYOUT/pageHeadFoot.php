@@ -5,11 +5,11 @@ function pageHeader($title,$nav){
 ?>
 
 <html>
-<head><title>$title</title>
+<head><title><?php $title ?></title>
 <link rel="stylesheet" href="CSS/style.css">
 </head><body>
 
-<nav> <h1>$nav</h1> </nav>
+<nav> <h1><?php $nav ?></h1> </nav>
 <?php
 } function pageFooter(){ 
 ?>
