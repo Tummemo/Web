@@ -1,0 +1,17 @@
+body {
+    
+    background-color:coral;
+}
+
+table , tr, td {
+    text-align:left;
+    color:white;
+}
+
+table {
+    background-color:grey;
+}
+
+tr,td {
+    border:solid 2px grey;
+}
