@@ -10,8 +10,8 @@ function pageLogin() { ?>
         <select name="level">
         <option name="none">
 Level
-</option><option name="student">Student</option>
-</option name="teacher">Teacher</option>
+</option><option name="student" value="student">Student</option>
+</option name="teacher" value="teacher">Teacher</option>
         </select>
          </label></td>
 
