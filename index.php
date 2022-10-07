@@ -1,7 +1,7 @@
 <?php
 include("LAYOUT/pageHeadFoot.php");
 include("LAYOUT/login.php");
-pageHeader("login");
+pageHeader("login","Login");
 pageLogin();
 pageFooter();
 ?>
