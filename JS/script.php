@@ -14,7 +14,6 @@ function subit(){
 }
 </script>
 <br><br><br><center>
-<input type="submit" onclick="submit();"><br>
 
 </center>
 </body>
