@@ -8,9 +8,9 @@
 
 <script>
 
-function submit(){
+function subit(){
     
-    alert("usr");
+    alert("user");
 }
 </script>
 <br><br><br><center>
