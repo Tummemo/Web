@@ -1,5 +1,21 @@
+<?php
+ ?>
+<html>
+    <head>
+        <title>script.php</title>
+    </head>
+<body>
+
 <script>
-function hello(){
-    alert("Hello World");
+
+function submit(){
+    
+    alert("usr");
 }
 </script>
+<br><br><br><center>
+<input type="submit" onclick="submit();"><br>
+
+</center>
+</body>
+</html>
