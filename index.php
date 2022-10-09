@@ -32,7 +32,7 @@ include("JS/script.php");
                  </label>
                  </td>
                  <td>
-                     <input type="submit" onclick="submit();" name="submit" value="Confirm" size="10" >
+                     <input type="submit" onclick="subit();" name="submit" value="Confirm" size="10" >
                  </td> 
             </tr>
         </table>
