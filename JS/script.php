@@ -1,20 +1,23 @@
 <?php
- ?>
-<html>
-    <head>
-        <title>script.php</title>
-    </head>
-<body>
+  
+?>
 
-<script>
+<script type="text/javascript">
 
-function subit(){
+
     
-    alert("user");
-}
-</script>
-<br><br><br><center>
+   
+function login(){
 
-</center>
-</body>
-</html>
+    var username = document.getElementById("username").value;
+    
+    var password = document.getElementById("password").value;
+    
+    var level = document.getElementById("level").value;
+    
+    
+}
+
+
+
+</script>
