@@ -1,1 +1,11 @@
 
+th,td,tr {
+    
+    border: 2px solid grey;
+    width:100px;
+    text-align:left;
+}
+body {
+    background-color:white;
+    color:grey;
+}
